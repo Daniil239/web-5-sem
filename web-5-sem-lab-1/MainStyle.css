@@ -1,0 +1,11 @@
+body{
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Comic Sans MS", serif;
+    color: chartreuse;
+}
+h1{
+    font-size: 120px;
+    line-height: normal;
+}
