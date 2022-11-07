@@ -1,4 +1,4 @@
 # web-5-sem
 course of web programming 5 semester of ITMO university
 Александров Даниил Евгеньевич М33041
-![](Снимок экрана 2022-10-11 002210.jpg)
+![Иллюстрация к проекту](https://github.com/Daniil239/web-5-sem/raw/lab-1/web-5-sem-lab-1/maket.png)
