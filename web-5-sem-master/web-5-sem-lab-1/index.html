@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Мда треш</title>
+    <meta name="keywords" content="Резюме, Даниил, Александров">
+    <meta name="description" content="Тестовая страница с резюме в рамках лабораторной работы по web-программиорованию">
+    <link href="MainStyle.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="experience.html">Мой Опыт</a>
+        <a href="comments.html">Комментарии</a>
+    </nav>
+</header>
+    <main>
+        <h1>Резюме</h1>
+        <section>
+            <img src="pO0k3mUhpVU.jpg" alt="Аватарка" width="150" height="150" class="picture">
+            <h2>Формула успеха:</h2> Хорошо <b>делай</b>, <b>плохо</b> не делай
+            <h3>Пример моего крутого кода, чтобы показать, что я не бесполезен</h3>
+            <pre>
+                <code>
+    select sum(before.cost) as model
+        ,sum(sum(before.cost)) over(
+            partition by status
+            order by main.dt
+            rows between unbounded preceding and current row)
+    from t1 as main
+        inner join t1 as before
+            on main.dt >= before.dt
+    group by main.dt;
+                </code>
+            </pre>
+            <pre>
+    ░░░░░░░░░░░░░░░░░░░░
+    ░░░░░ЗАПУСКАЕМ░░░░░░░
+    ░ГУСЯ░▄▀▀▀▄░РАБОТЯГИ░░
+    ▄███▀░◐░░░▌░░░░░░░░░
+    ░░░░▌░░░░░▐░░░░░░░░░
+    ░░░░▐░░░░░▐░░░░░░░░░
+    ░░░░▌░░░░░▐▄▄░░░░░░░
+    ░░░░▌░░░░▄▀▒▒▀▀▀▀▄
+    ░░░▐░░░░▐▒▒▒▒▒▒▒▒▀▀▄
+    ░░░▐░░░░▐▄▒▒▒▒▒▒▒▒▒▒▀▄
+    ░░░░▀▄░░░░▀▄▒▒▒▒▒▒▒▒▒▒▀▄
+    ░░░░░░▀▄▄▄▄▄█▄▄▄▄▄▄▄▄▄▄▄▀▄
+    ░░░░░░░░░░░▌▌░▌▌░░░░░
+    ░░░░░░░░░░░▌▌░▌▌░░░░░
+    ░░░░░░░░░▄▄▌▌▄▌▌░░░░░
+            </pre>
+        </section>
+    </main>
+    <footer>
+         <a target="_blank" href="https://t.me/wct801">Telegram: wct801</a>
+    </footer>
+</body>
+</html>
